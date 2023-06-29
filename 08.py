@@ -25,4 +25,4 @@ def rounds_cats_in_hats(n_cats, rounds):
         print()
         print(f'Total amount of iterations is {iterations}')
 
-rounds_cats_in_hats(3, 3)
+rounds_cats_in_hats(100, 100)
