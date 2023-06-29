@@ -19,7 +19,7 @@ def rounds_cats_in_hats(n_cats, rounds):
                 iterations += 1
                 cats[j*i] = False if cats[j*i] is True else True
         print('List of cats ws a hat:')
-        for i in range(1, n_cats + 1):  # priting numbers of cats ws a hat
+        for i in range(1, n_cats + 1):  # printing numbers of cats ws a hat
             if cats[i] is True:
                 print(i, ' ', end='')
         print()
