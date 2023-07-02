@@ -1,4 +1,4 @@
-# There has to a cod until str 12 if cats == rounds
+# There has to be a cod until str 12 if cats == rounds
 def rounds_cats_in_hats(n_cats, rounds):
     iterations = 0
     cats = []
@@ -24,5 +24,7 @@ def rounds_cats_in_hats(n_cats, rounds):
                 print(i, ' ', end='')
         print()
         print(f'Total amount of iterations is {iterations}')
+
+
 
 rounds_cats_in_hats(100, 100)
